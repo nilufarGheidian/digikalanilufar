@@ -1,0 +1,202 @@
+footer{
+    width: 99%;
+    height: 637px;
+}
+footer{
+    border-top: 1px solid lightgray;
+    margin-top: 60px;
+}
+footer>div.tell{
+    width: 100%;
+    height: 120px;
+}
+footer>div.tell>div{
+    width: 99%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer>div.tell>div>div{
+    width: 30%;
+    height: inherit;
+}
+footer>div.tell>div>div.ruz{
+    display: flex;
+    flex-direction: column;
+}
+footer>div.tell>div>div.ruz>div{
+    height: 60px;
+    width: 300px;
+}
+footer>div.tell>div>div.ruz>div>img{
+    width: 120px;
+    height: 60px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+footer>div.tell>div>div.ruz>div.you{
+    width: 100%;
+    margin-top: 10px;
+}
+footer>div.tell>div>div.ruz>div.you>p{
+    font-size: 12px;
+}
+footer>div.tell>div>div.return{
+    text-align: left;
+}
+footer>div.tell>div>div.return>div{
+    width: 130px;
+    height: 42px;
+    display: inline-block;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    margin-left: 2px;
+    border-radius: 6px 6px 6px 6px;
+    position: relative;
+    cursor: pointer;
+}
+footer>div.tell>div>div.return>div>span{
+    display: inline-block;
+    font-size: 12px;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    color:#9e9fb1 ;
+    font-weight: 700;
+}
+footer>div.tell>div>div.return>div>div{
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
+footer>div.express{
+    text-align: center;
+}
+footer>div.express>div{
+    width: 23%;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer>div.express>div>p{
+    font-size: 12px;
+}
+footer>div.express>div>a>img{
+    margin-top: 25px;
+}
+footer>div.with>div{
+    width: 24%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer>div.with>div>h4{
+    margin: 15px;
+}
+footer>div.with>div>a{
+    text-decoration: none;
+    display: block;
+    margin: 15px;
+    color: darkgray;
+}
+footer>div.with>div>div{
+    display: inline-block;
+    margin: 5px;
+}
+footer>div.with>div>div{
+    margin-left: 15px;
+}
+footer>div.with>div>div>form{
+    width: 400px;
+    height: 60px;
+}
+footer>div.with>div>div>form>input{
+    width: 250px;
+    height: 47px;
+    background-color: rgb(233, 233, 233);
+    border: unset;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 14px;
+    color: #3f4064;
+}
+footer>div.with>div>div>form>label>button{
+    border: unset;
+    width: 47px;
+    height: 47px;
+    border-radius: 6px 6px 6px 6px ;
+    background-color: rgb(213, 212, 212);
+}
+footer>div.with>div>div>form>label>button>p{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+footer>div.dl{
+    width: 98%;
+    height: 70px;
+    background-color: #3c4b6d;
+    margin: 0 auto;
+    border-radius: 12px 12px 12px 12px;
+}
+footer>div.dl>div{
+    width: 49%;
+    height: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer>div.dl>div.app{
+    vertical-align: center;
+}
+footer>div.dl>div.app>div{
+    height: inherit;
+    width: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer>div.dl>div.app>div.neveshte{
+    width: 250px;
+}
+footer>div.dl>div.app>div.ghermez>img{
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+footer>div.dl>div.app>div.neveshte>h3{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: white;
+}
+footer>div.dl>div.google{
+    height: inherit;
+}
+footer>div.dl>div.google>div{
+    height:50px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+footer>div.dl>div.google>div.sib-5{
+    width: 45px;
+    height: 45px;
+    background-color: #f6f6fe;
+    margin-top: 12px;
+    border-radius: 4px 4px 4px 4px;
+    margin-right: 6px;
+}
+footer>div.dl>div.google>div>img{
+    object-fit: contain;
+    height: 45px;
+    margin-top: 2px;
+}
+footer>div.with>div>div.jost>h3{
+    color: #3f4064;
+    font-size: 16px;
+    margin-bottom: 16px
+}

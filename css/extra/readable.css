@@ -1,0 +1,74 @@
+div.readable{
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+}
+div.readable>div{
+    width: 85%;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+div.readable>div>div.read>div{
+    width: 20%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    position: absolute;
+}
+div.readable>div>div.read>div.more{
+    right: 1029px;
+}
+div.readable>div>div.read>div.ready>h4{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 15px;
+    color: #080a38;
+    cursor: pointer;
+}
+div.readable>div>div.read>div.more>span{
+    color: #19bfd3;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    right: 70px;
+    cursor: pointer;
+}
+div.readable>div>div.read>div.more>div{
+    display: inline-block;
+    position: absolute;
+    top:12px;
+    right: 230px;
+}
+div.readable>div>div.game{
+    width: 100%;
+    height: 278px;
+    position: absolute;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.readable>div>div.game>div{
+    width: 23%;
+    height: inherit;
+    border: 1px solid lightgray;
+    border-radius: 10px 10px 10px 10px;
+}
+div.readable>div>div.game>div>img{
+    width: 295px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+div.readable>div>div.game>div>span{
+    font-size: 12px;
+    color:#080a38;
+    font-weight: 400;
+    line-height: 2.17;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}

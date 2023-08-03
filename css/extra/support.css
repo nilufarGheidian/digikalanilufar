@@ -1,0 +1,28 @@
+div.support{
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+    background-color: #ef394e;
+    z-index: 999999;
+    position: fixed;
+    bottom: 15px;
+    left: 60px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+}
+div.support>div{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin: auto;
+    width: 28px;
+    height: 28px;
+    z-index: 99999999999;
+    display: inline-block;
+    line-height: 48px;
+}
+div.support>div>svg{
+    margin-top: 14px;
+}

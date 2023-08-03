@@ -1,0 +1,121 @@
+div.amazing{
+    width: 100%;
+    height: 300px;
+}
+div.amazing>div.nilo{
+    width: 85%;
+    height: 280px;
+    background-color:#ef394e;
+    margin: 0 auto;
+    border-radius: 16px 16px 16px 16px;
+    position: relative;
+}
+div.amazing>div.nilo>div.image{
+    width:15%;
+    height:280px;
+    padding-top:20px;
+}
+div.amazing>div.nilo>div.image>div.pishnahad{
+    width: 97px;
+    height: 77px;
+    margin-right: 55px;
+}
+div.amazing>div.nilo>div.image>div.pishnahad>img{
+    width: 92px;
+    height: 77px;
+}
+div.amazing>div.nilo>div.image>div.jabe{
+    width: 145px;
+    height: 115px;
+    margin-right: 20px;
+}
+div.amazing>div.nilo>div.image>div.jabe>img{
+    width: 145px;
+    height: 115px;
+}
+div.amazing>div.nilo>div.image>div.note>p{
+    display: inline-block;
+    margin-right: 50px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+div.amazing>div.nilo>div.image>div.note>div{
+    display: inline-block;
+}
+div.amazing>div.nilo>div.image>p{
+    width:min-content;
+    text-align: justify;
+    font-size: 18px;
+    color: white;  
+    margin:0px auto;
+}
+div.amazing>div.nilo>div.image>p[first]{
+    width: 80%;
+    text-align: center;
+    margin:0px auto;
+}
+div.amazing>div.nilo>div.container-2{
+    width:85%;
+    height: 240px;
+    position: absolute;
+    top: 7%;
+    right:15%;
+    overflow: hidden;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2{
+    width:100%;
+    height:400px;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2.myamazing>div.swiper-wrapper>div.swiper-slide>img{
+    width:100%;
+    height: 140px;
+    object-fit:contain;
+    position: absolute;
+    top: 25px;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2.myamazing>div.swiper-wrapper>:nth-of-type(1){
+    border-radius: 0 8px 8px 0;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2.myamazing>div.swiper-wrapper>div.swiper-slide{
+    padding:0px 15px;
+    height: 240px;
+    position: relative;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2.myamazing>div.swiper-wrapper>div.swiper-slide>div{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2.myamazing>div.swiper-wrapper>div.swiper-slide>div>div{
+    display: inline-block;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2.myamazing>div.swiper-wrapper>div.swiper-slide>div>span{
+    font-size: 16px;
+    color:#3f4064 ;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2.myamazing>div.swiper-wrapper>div.swiper-slide>div>span::after{
+    content: "16%";
+    color: #fff;
+    position: absolute;
+    right: -50px;
+    background-color: #e6123d;
+    width: 34px;
+    height: 20px;
+    border-radius: 33%;
+    font-size: 14px;
+}
+div.amazing>div.nilo>div.container-2>div.swiper2.myamazing>div.swiper-wrapper>div.swiper-slide>div>span::before{
+    content: "11,900";
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    text-decoration: line-through;
+    color: #c3c3ce;
+    font-size: 12px;
+}
+
+
+
+
+

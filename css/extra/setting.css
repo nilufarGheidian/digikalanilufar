@@ -1,0 +1,19 @@
+@font-face{
+    font-family: BYekan;
+    src: url(../../fonts/iranyekanwebregular.e31c09af\(1\).eot);
+    src: url(../../fonts/iranyekanwebregular.e31c09af\(1\).ttf);
+    src: url(../../fonts/iranyekanwebregular.e31c09af\(1\).woff);
+    src: url(../../fonts/iranyekanwebregular.e31c09af\(1\).woff2);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: BYekan;
+}
+
+div.wrapper{
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+div.fasl{
+    width: 100%;
+    height: 257px;
+    margin:20px 0px;
+}
+div.fasl>div{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+}
+div.fasl>div>div.rast{
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+div.fasl>div>div.chap{
+    width: auto;
+    display: inline-block;
+}
+div.fasl>div>div.rast>a>img,div.fasl>div>div.chap>a>img{
+    width: 638px;
+    border-radius: 16px 16px 16px 16px;
+}

@@ -1,0 +1,21 @@
+div.partition{
+    width: 100%;
+    height: 235px;
+    margin-top: 20px;
+}
+div.partition>div{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    text-align: center;
+}
+div.partition>div>div{
+    width: 23%;
+    display: inline-block;
+    margin:0 0.5%;
+}
+
+div.partition>div>div>a>img{
+    width: 100%;
+    border-radius: 16px 16px 16px 16px;
+}

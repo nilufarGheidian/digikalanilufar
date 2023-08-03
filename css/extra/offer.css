@@ -1,0 +1,56 @@
+div.offer{
+  width: 100%;
+  height: 450px;
+}
+div.offer>div{
+  width: 85%;
+  padding: 5px;
+  margin: 50px auto;
+  border: 1px solid lightgrey;
+  border-radius: 16px 16px 16px 16px;
+}
+div.offer>p{
+  font-size: 20px;
+  text-align: center;
+}
+div.offer>div>div.top{
+  border-bottom: 1px solid lightgray;
+}
+div.offer>div>div.top>div.khune{
+  border-right: unset;
+}
+div.offer>div>div.bottom>div.consule{
+  border-right: unset;
+}
+div.offer>div>div.top,div.offer>div>div.bottom{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+div.offer>div>div.top>div,div.offer>div>div.bottom>div{
+  width: 14%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -3px;
+  border-right:1px solid lightgrey ;
+}
+div.offer>div>div.top>div>div,div.offer>div>div.bottom>div>div{
+  width: 50%;
+  height: 60%;
+  background-color: rgb(227, 226, 226);
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+div.offer>div>div.top>div>div>img,div.offer>div>div.bottom>div>div>img{
+  width: inherit;
+  margin-top: 20px;
+}
+div.offer>div>div.top>div>p,div.offer>div>div.bottom>div>p{
+  font-size: 12px;
+  font-weight: 700;
+  color: #080a38;
+}

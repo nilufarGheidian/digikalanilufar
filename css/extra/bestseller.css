@@ -1,0 +1,102 @@
+div.bestseller{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+div.bestseller>div{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 16px 16px 16px 16px;
+}
+div.bestseller>div>div.hot{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+div.bestseller>div>div.hot>h4{
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 20px;
+}
+div.bestseller>div>div.hot>div{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+}
+div.bestseller>div>div.hot>svg{
+    position: absolute;
+    top: 40px;
+    right: 520px;
+}
+div.bestseller>div>div.hot>div>a{
+    color:#19bfd3 ;
+    font-size: 14px;
+    font-weight: 700;
+}
+div.bestseller>div>div.hot>div>a{
+    text-decoration: none;
+}
+div.bestseller>div>div.badbakhti{
+    width: 100%;
+    height: 318px;
+    overflow: hidden;
+}
+div.popular>div.container>div.swiperContainer{
+    width:100%;
+    height:318px;
+    border-radius: 0px 0px 25px 25px;
+    overflow: hidden;
+}
+
+div.bestseller>div>div.badbakhti>div.swiper3{
+    width:90%;
+    height:318px;
+}
+div.bestseller>div>div.badbakhti>div.swiper3.mybestseller>div.swiper-wrapper>div.swiper-slide>img{
+    width:33%;
+    height: 318px;
+    object-fit:contain;
+}
+div.bestseller>div>div.badbakhti>div.swiper3.mybestseller>div.swiper-wrapper>div.swiper-slide{
+    padding:0px 15px;
+    border-left: 1px solid lightgray;
+}
+div.bestseller>div>div.badbakhti>div.swiper3.mybestseller>div.swiper-wrapper>div.swiper-slide:last-of-type{
+    border-left: none;
+}
+div.bestseller>div>div.badbakhti>div.swiper3.mybestseller>div.swiper-wrapper>div.swiper-slide{
+    display: flex;
+    flex-direction: column;
+}
+div.bestseller>div>div.badbakhti>div.swiper3.mybestseller>div.swiper-wrapper>div.swiper-slide>div{
+    width: 385px;
+    height: 107px;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+div.bestseller>div>div.badbakhti>div.swiper3.mybestseller>div.swiper-wrapper>div.swiper-slide>div>img{
+    width: 86px;
+    height: 86px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+div.bestseller>div>div.badbakhti>div.swiper3.mybestseller>div.swiper-wrapper>div.swiper-slide>div>span{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    color: #19bfd3;
+    font-weight: 800;
+    font-size: 2.6rem;
+}
+div.bestseller>div>div.badbakhti>div.swiper3.mybestseller>div.swiper-wrapper>div.swiper-slide>div>p{
+    font-size: 13px;
+    position: absolute;
+    top: 36px;
+    right: 125px;
+    color: #3f4064;
+}

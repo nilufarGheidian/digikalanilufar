@@ -1,0 +1,55 @@
+div.popular{
+    width: 100%;
+    height: 260px;
+}
+div.popular>div.container{
+    width:85%;
+    height: inherit;
+    margin: 10px auto;
+    border: 2px solid lightgray;
+    border-radius: 25px
+}
+div.popular>div.container>div.popBanner{
+    width:20%;
+    height:80px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 100px;
+    direction: rtl;
+}
+div.popular>div.container>div.popBanner>svg{
+    width:24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+div.popular>div.container>div.popBanner>p{
+    display: inline;
+    vertical-align: top;
+    font-size: 21px;
+}
+
+div.popular>div.container>div.swiperContainer{
+    width:100%;
+    height:165px;
+    border-radius: 0px 0px 25px 25px;
+    overflow: hidden;
+}
+
+div.popular>div.container>div.swiperContainer>div.swiper1{
+    width:100%;
+    height:160px;
+}
+div.popular>div.container>div.swiperContainer>div.swiper1.mypopular>div.swiper-wrapper>div.swiper-slide>img{
+    width:100%;
+    height: 167px;
+    object-fit:contain;
+}
+div.popular>div.container>div.swiperContainer>div.swiper1.mypopular>div.swiper-wrapper>div.swiper-slide{
+    padding:0px 15px;
+    border-left: 1px solid lightgray;
+    height: 150px;
+}
+div.popular>div.container>div.swiperContainer>div.swiper1.mypopular>div.swiper-wrapper>div.swiper-slide:last-of-type{
+    border-left: none;
+}

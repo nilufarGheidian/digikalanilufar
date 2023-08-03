@@ -1,0 +1,173 @@
+/*div.dastebandi{
+    width: 100%;
+    height: 430px;
+    margin-top: 15px;
+}
+div.dastebandi>div{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 16px 16px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+div.dastebandi>div>div.right{
+    width: 50%;
+    height: inherit;
+    border-left: 1px solid lightgray;
+    display: inline-block;
+}
+div.dastebandi>div>div.left{
+    width: 49.9%;
+    height: inherit;
+    display: inline-block;
+}
+div.dastebandi>div>div.right>div,div.dastebandi>div>div.left>div{
+    width: 49.5%;
+    height:inherit;
+    display: inline-block;
+    vertical-align: top;
+}
+div.dastebandi>div>div.right>div>h4,div.dastebandi>div>div.left>div>h4{
+    margin-top: 8px;
+    margin-right: 20px;
+    color:#23254e ;
+    font-weight: 700;
+    line-height: 2.15;
+    font-size: 16px;
+}
+div.dastebandi>div>div.right>div>p,div.dastebandi>div>div.left>div>p{
+    margin-right: 20px;
+    font-size: 12px;
+    color:#767790 ;
+}
+div.dastebandi>div>div.right>div>div.aval,div.dastebandi>div>div.right>div>div.dovom,div.dastebandi>div>div.left>div>div.chaharom,div.dastebandi>div>div.left>div>div.sevom{
+    width: 100%;
+    height: 45%;
+    position: relative;
+}
+div.dastebandi>div>div.right>div>div.aval>div,div.dastebandi>div>div.right>div>div.dovom>div,div.dastebandi>div>div.left>div>div.sevom>div,div.dastebandi>div>div.left>div>div.chaharom>div{
+    width: 160px;
+    height: 80%;
+    margin-top: 5px;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    display: inline-block;
+}
+div.dastebandi>div>div.right>div>div.aval>div>img,div.dastebandi>div>div.right>div>div.dovom>div>img,div.dastebandi>div>div.left>div>div.sevom>div>img,div.dastebandi>div>div.left>div>div.chaharom>div>img{
+    width: 100%;
+    height: 100%;
+}
+div.dastebandi>div>div.right>div>div.dovom>div.to,div.dastebandi>div>div.right>div>div.aval>div.man{
+    border-bottom: unset;
+}
+div.dastebandi>div>div.right>div>div.aval>div.khaste,div.dastebandi>div>div.right>div>div.dovom>div.shoma,div.dastebandi>div>div.left>div>div.sevom>div.fereshte,div.dastebandi>div>div.left>div>div.chaharom>div.luster{
+    width: 160px;
+    height: 154px;
+    position: absolute;
+    top: 0;
+}
+div.dastebandi>div>div.right>div>div.dovom>div.shoma{
+    border-left: unset;
+}
+div.dastebandi>div>div.right>div>div.aval>div.base,div.dastebandi>div>div.right>div>div.dovom>div.ma,div.dastebandi>div>div.left>div>div.sevom>div.sheytan,div.dastebandi>div>div.left>div>div.chaharom>div.cheragh{
+    width: 160px;
+    height: 154px;
+    position: absolute;
+    top: 160px;
+    border-bottom: unset;
+}
+div.dastebandi>div>div.left>div>div.chaharom>div.luster,div.dastebandi>div>div.left>div>div.chaharom>div.cheragh{
+    border-left: unset;
+}
+div.dastebandi>div>div.right>div>div.dovom>div.ma{
+    border-left: unset;
+}
+div.dastebandi>div>div.left>div>div.sevom>div.zereshki,div.dastebandi>div>div.left>div>div.chaharom>div.sorkhabi{
+    border-bottom: unset;
+}*/
+div.dastebandi{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+div.dastebandi>div{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 16px 16px 16px 16px;
+}
+div.dastebandi>div>div.upper2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.dastebandi>div>div.upper2>div{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+}
+div.dastebandi>div>div.upper2>div.golabi{
+    border-left: none;
+}
+div.dastebandi>div>div.upper2>div>span{
+    color: #23254e;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+div.dastebandi>div>div.upper2>div>p{
+    font-size: 12px;
+    color: #767790;
+    margin-right: 16px;
+}
+div.dastebandi>div>div.tabaghe{
+    width: 100%;
+    height: 315px;
+    display: flex;
+    flex-direction: row;
+}
+div.dastebandi>div>div.tabaghe>div{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+div.dastebandi>div>div.tabaghe>div>div{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid lightgray;
+}
+div.dastebandi>div>div.tabaghe>div>div.three{
+    border-bottom: none;
+}
+div.dastebandi>div>div.tabaghe>div>div>div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid lightgray;
+}
+div.dastebandi>div>div.tabaghe>div>div>div>img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+div.dastebandi>div>div.tabaghe>div>span{
+    color: #19bfd3;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+

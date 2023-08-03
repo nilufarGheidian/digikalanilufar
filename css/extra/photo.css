@@ -1,0 +1,23 @@
+div.photo{
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+}
+div.photo>div{
+    width: 85%;
+    margin: 0px auto;
+    height: inherit;
+}
+div.photo>div>div.right{
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+div.photo>div>div.left{
+    width: auto;
+    display: inline-block;
+}
+div.photo>div>div.right>a>img,div.photo>div>div.left>a>img{
+    width: 630px;
+    border-radius: 15px;
+}

@@ -1,0 +1,83 @@
+div.headphone{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+div.headphone>div{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 16px 16px 16px 16px;
+}
+div.headphone>div>div.upper2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.headphone>div>div.upper2>div{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+}
+div.headphone>div>div.upper2>div.golabi{
+    border-left: none;
+}
+div.headphone>div>div.upper2>div>span{
+    color: #23254e;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+div.headphone>div>div.upper2>div>p{
+    font-size: 12px;
+    color: #767790;
+    margin-right: 16px;
+}
+div.headphone>div>div.tabaghe{
+    width: 100%;
+    height: 315px;
+    display: flex;
+    flex-direction: row;
+}
+div.headphone>div>div.tabaghe>div{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+div.headphone>div>div.tabaghe>div>div{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid lightgray;
+}
+div.headphone>div>div.tabaghe>div>div.three{
+    border-bottom: none;
+}
+div.headphone>div>div.tabaghe>div>div>div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid lightgray;
+}
+div.headphone>div>div.tabaghe>div>div>div>img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+div.headphone>div>div.tabaghe>div>span{
+    color: #19bfd3;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+

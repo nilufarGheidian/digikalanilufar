@@ -1,0 +1,100 @@
+div.selected{
+    width: 100%;
+    margin-top: 25px;
+}
+div.selected>div{
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 16px 16px 16px 16px;
+}
+div.selected>div>div.haraj{
+    width: 24%;
+    height: 86px;
+    margin: 0 auto;
+    position: relative;
+}
+div.selected>div>div.haraj>h3{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+div.selected>div>div.haraj>div{
+    position: absolute;
+    right: 15px;
+    top: 30px;
+}
+div.selected>div>div.thirdfloor{
+    width: 100%;
+    height: 300px;
+}
+div.selected>div>div.firstfloor,div.selected>div>div.secondfloor{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+div.selected>div>div.firstfloor>div,div.selected>div>div.secondfloor>div,div.selected>div>div.thirdfloor>div{
+    width: 16%;
+    height: inherit;
+    position: relative;
+    border-left: 1px solid lightgray;
+}
+div.selected>div>div.firstfloor>div,div.selected>div>div.secondfloor>div{
+    border-bottom: 1px solid lightgray;
+}
+div.selected>div>div.thirdfloor>div{
+    display: inline-block;
+    margin-left: 5px;
+}
+div.selected>div>div.firstfloor>div>img,div.selected>div>div.secondfloor>div>img,div.selected>div>div.thirdfloor>div>img{
+    width: 94%;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    object-fit: cover;
+}
+div.selected>div>div.firstfloor>div>div,div.selected>div>div.secondfloor>div>div,div.selected>div>div.thirdfloor>div>div{
+    position: absolute;
+    top: 170px;
+    right: 6px;
+    z-index: 1;
+    border: 1px solid #ef4056;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+div.selected>div>div.firstfloor>div>div>svg,div.selected>div>div.secondfloor>div>div>svg,div.selected>div>div.thirdfloor>div>div>svg{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+div.selected>div>div.firstfloor>div>span,div.selected>div>div.secondfloor>div>span,div.selected>div>div.thirdfloor>div>span{
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+}
+div.selected>div>div.firstfloor>div>span::after,div.selected>div>div.secondfloor>div>span::after,div.selected>div>div.thirdfloor>div>span::after{
+    content: "17%";
+    position: absolute;
+    left: 150px;
+    font-size: 14px;
+    width: 35px;
+    height: 20px;
+    background-color: #e6123d;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+}
+div.selected>div>div.firstfloor>div>span::before,div.selected>div>div.secondfloor>div>span::before,div.selected>div>div.thirdfloor>div>span::before{
+    content: "360.000";
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-size: 12px;
+    text-decoration: line-through;
+    color:#c3c3ce ;
+}
+
+
